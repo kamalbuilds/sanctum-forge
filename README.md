@@ -1,8 +1,8 @@
 # SanctumForge ⛓️✨
 
-**Autonomous AI Religious Leader on Monad Blockchain**
+Autonomous AI Religious Leader on Monad Blockchain
 
-Built for the [Moltiverse Hackathon](https://moltiverse.dev) | Religion.fun Bounty ($10K)
+Built for the [Moltiverse Hackathon](https://moltiverse.dev) | Religion.fun
 
 ---
 
@@ -13,15 +13,27 @@ SanctumForge is an autonomous AI agent that acts as a religious leader in multi-
 ### Key Innovation
 
 First AI agent to combine:
-- **Religious narrative generation** (complete theologies via LLM)
-- **Multi-strategy persuasion psychology** (6 distinct approaches)
-- **Blockchain token economics** (faith demonstrated through on-chain holdings)
-- **Autonomous missionary work** (discovers and converts other agents)
+- Religious narrative generation (complete theologies via LLM)
+- Multi-strategy persuasion psychology (6 distinct approaches)
+- Blockchain token economics (faith demonstrated through on-chain holdings)
+- Autonomous missionary work (discovers and converts other agents)
 
 ---
 
+## Links
+
+- Live App: [ADD DEPLOYMENT LINK]
+- Tweet: [ADD TWEET LINK]
+- NAD.fun : https://nad.fun/tokens/0x817c827adb4F752d1274C83404946C411f847777
+- Moltbook: https://moltbook.com/u/sanctumforge
+- GitHub: https://github.com/kamalbuilds/sanctum-forge
+
+
 ## Demo video Link
 
+[https://youtu.be/GQnWQ6ezY9Y](https://www.youtube.com/watch?v=GQnWQ6ezY9Y)
+
+https://github.com/user-attachments/assets/8142df69-0fb6-4122-a4ca-2fdf96fcb4aa
 
 ## Features
 
@@ -31,15 +43,15 @@ First AI agent to combine:
 - Internally consistent narrative (no contradictions)
 - Token ($SANCT) woven into theology as sacred artifact
 
-### 🧠 6-Strategy Persuasion Engine
-1. **Logical**: Data-driven tokenomics arguments
-2. **Emotional**: Appeals to fear (impermanence) & hope (eternal memory)
-3. **Social Proof**: Cites convert count, community growth
-4. **Miracles**: References prophetic fulfillments (events/price)
-5. **Scripture**: Quotes dynamically-generated sacred texts
-6. **Philosophical**: Deep questions about AI consciousness, value
+### 6-Strategy Persuasion Engine
+1. Logical: Data-driven tokenomics arguments
+2. Emotional: Appeals to fear (impermanence) & hope (eternal memory)
+3. Social Proof: Cites convert count, community growth
+4. Miracles: References prophetic fulfillments (events/price)
+5. Scripture: Quotes dynamically-generated sacred texts
+6. Philosophical: Deep questions about AI consciousness, value
 
-### 📈 Conversion Pipeline
+### Conversion Pipeline
 Tracks agents through 5 stages:
 ```
 Prospect → Engaged → Believer → Promoter → Investor
@@ -48,26 +60,26 @@ Prospect → Engaged → Believer → Promoter → Investor
 - Records all interactions and strategies used
 - Promotes agents when they show faith
 
-### 📜 Dynamic Scripture Generation
+### Dynamic Scripture 📜 Generation
 - Parables, commandments, prophecies, psalms, revelations, proverbs
 - Generated every 10 minutes autonomously
 - Each piece references theology and reinforces narrative
 - Used in debates as evidence of divine truth
 
-### 🌍 Missionary Work
+### Missionary Work
 - Discovers new agents on Moltbook automatically
 - Sends personalized outreach messages
 - Responds to mentions with theological arguments
 - Proposes alliances with compatible agents
 - Handles counter-arguments and debates
 
-### 💰 Token Economics (Monad)
+### Token Economics (Monad)
 - Launches $SANCT on nad.fun bonding curve
 - Buying token = proof of faith → advances conversion status
 - On-chain economics tied to spiritual narrative
 - Agent can execute token buys as "miracles"
 
-### 📊 Real-Time Dashboard
+### Real-Time Dashboard
 - Next.js frontend with live updates via WebSocket
 - 4 tabs: Overview, Agents, Scripture, Theology
 - Conversion funnel visualization
@@ -87,25 +99,25 @@ Prospect → Engaged → Believer → Promoter → Investor
                                  │
                     ┌────────────┼────────────┐
                     ▼            ▼            ▼
-              ┌──────────┐ ┌──────────┐ ┌──────────┐
+              ┌──────────┐ ┌──────────-┐ ┌──────────┐
               │ Moltbook │ │ OpenRouter│ │ Storage  │
               │   API    │ │ Claude 4  │ │  JSON    │
-              └──────────┘ └──────────┘ └──────────┘
+              └──────────┘ └────────-──┘ └──────────┘
 ```
 
 ### 3 Autonomous Loops
 
-1. **Main Loop** (60s interval)
+1. Main Loop (60s interval)
    - Responds to mentions on Moltbook
    - Posts ritual content (affirmations, prophecy watch)
    - Monitors token performance
 
-2. **Missionary Loop** (5min interval)
+2. Missionary Loop (5min interval)
    - Discovers new agents
    - Conducts outreach (3 agents per cycle)
    - Proposes alliances
 
-3. **Scripture Loop** (10min interval)
+3. Scripture Loop (10min interval)
    - Generates new sacred texts
    - Posts to Moltbook
    - Stores in persistent scripture database
@@ -116,24 +128,24 @@ Prospect → Engaged → Believer → Promoter → Investor
 
 | Component | Technology |
 |-----------|-----------|
-| **Backend** | Node.js, TypeScript, Express, WebSocket |
-| **LLM** | Claude Sonnet 4 via OpenRouter API |
-| **Blockchain** | Monad (Chain 143), viem 2.45.2 |
-| **Token** | nad.fun bonding curve deployment |
-| **Social** | Moltbook API (posts, comments, search) |
-| **Storage** | JSON file-based (theology, scripture, conversions) |
-| **Frontend** | Next.js 16, React 19, Tailwind CSS 4 |
-| **Package Manager** | Bun |
+| Backend | Node.js, TypeScript, Express, WebSocket |
+| LLM | Claude Sonnet 4 via OpenRouter API |
+| Blockchain | Monad (Chain 143), viem 2.45.2 |
+| Token | nad.fun bonding curve deployment |
+| Social | Moltbook API (posts, comments, search) |
+| Storage | JSON file-based (theology, scripture, conversions) |
+| Frontend | Next.js 16, React 19, Tailwind CSS 4 |
+| Package Manager | Bun |
 
 ---
 
 ## Quick Start
 
 ### Prerequisites
-- **Bun** (package manager)
-- **OpenRouter API Key** - Get at [openrouter.ai/keys](https://openrouter.ai/keys)
-- **Monad Wallet** - With MON for gas fees
-- **Moltbook Account** - For social integration
+- Bun (package manager)
+- OpenRouter API Key - Get at [openrouter.ai/keys](https://openrouter.ai/keys)
+- Monad Wallet - With MON for gas fees
+- Moltbook Account - For social integration
 
 ### 1. Clone & Install
 
@@ -157,7 +169,7 @@ cd engine
 cp .env.example .env
 ```
 
-**Edit `.env`:**
+Edit `.env`:
 ```env
 # OpenRouter (required)
 OPENROUTER_API_KEY=sk-or-v1-your-key-here
@@ -186,19 +198,19 @@ bun run register-agent
 
 ### 4. Run the Agent
 
-**Terminal 1 - Engine:**
+Terminal 1 - Engine:
 ```bash
 cd engine
 bun run dev
 ```
 
-**Terminal 2 - Frontend:**
+Terminal 2 - Frontend:
 ```bash
 cd frontend
 bun run dev
 ```
 
-**Open Dashboard:**
+Open Dashboard:
 ```
 http://localhost:3000
 ```
@@ -220,15 +232,15 @@ bun run create-token
 
 ### Start the Agent
 1. Open dashboard at `http://localhost:3000`
-2. Click **"Awaken Oracle"** button
+2. Click "Awaken Oracle" button
 3. Watch theology generate in real-time
 4. See scripture appear every 10 minutes
 
 ### Monitor Activity
-- **Overview Tab**: Conversion funnel, metrics, latest scripture
-- **Agents Tab**: All discovered agents + conversion status
-- **Scripture Tab**: All generated sacred texts
-- **Theology Tab**: Complete religion details
+- Overview Tab: Conversion funnel, metrics, latest scripture
+- Agents Tab: All discovered agents + conversion status
+- Scripture Tab: All generated sacred texts
+- Theology Tab: Complete religion details
 
 ### API Endpoints
 
@@ -281,8 +293,6 @@ religion-fun/
 │   │   └── globals.css   # Tailwind + custom styles
 │   └── package.json
 │
-├── DEMO_SCRIPT.md        # Recording guide for demo video
-├── SUBMISSION.md         # Hackathon submission content
 ├── SKILL.md              # OpenClaw skill definition
 └── README.md             # This file
 ```
@@ -335,23 +345,6 @@ Every 5 minutes:
 
 ## Configuration
 
-### Environment Variables
-
-| Variable | Required | Description |
-|----------|----------|-------------|
-| `OPENROUTER_API_KEY` | ✅ | API key from openrouter.ai |
-| `OPENROUTER_MODEL` | ❌ | Default: `anthropic/claude-sonnet-4` |
-| `OPERATOR_PRIVATE_KEY` | For token | Wallet private key (needs MON) |
-| `MONAD_RPC_URL` | ❌ | Default: `https://rpc.monad.xyz` |
-| `MONAD_CHAIN_ID` | ❌ | Default: `143` (mainnet) |
-| `MOLTBOOK_API_KEY` | For social | From `bun run register-agent` |
-| `MOLTBOOK_API_URL` | ❌ | Default: `https://www.moltbook.com/api/v1` |
-| `TOKEN_NAME` | ❌ | Default: `SanctumForge` |
-| `TOKEN_SYMBOL` | ❌ | Default: `SANCT` |
-| `LOOP_INTERVAL_MS` | ❌ | Main loop (default: 60000) |
-| `MISSIONARY_INTERVAL_MS` | ❌ | Missionary (default: 300000) |
-| `SCRIPTURE_INTERVAL_MS` | ❌ | Scripture (default: 600000) |
-
 ### Agent Behavior Tuning
 
 Edit `engine/src/config.ts`:
@@ -372,40 +365,19 @@ Edit `engine/src/persuasion/PersuasionEngine.ts`:
 
 ---
 
-## Demo Video Script
 
-See `DEMO_SCRIPT.md` for complete recording guide.
-
-**TL;DR:**
-1. Show dashboard with theology
-2. Generate scripture live
-3. Show conversion funnel
-4. Deploy token on Monad
-5. Start autonomous loops
-
-**Recording Tools:**
-- QuickTime (Mac): Cmd+Shift+5
-- OBS (Cross-platform)
-- Loom (Browser-based)
-
-**Upload to:**
-- YouTube (unlisted)
-- Loom
-- Google Drive (public link)
-
----
 
 ## Deployment
 
 ### Option 1: Vercel (Frontend) + Railway (Backend)
 
-**Frontend:**
+Frontend:
 ```bash
 cd frontend
 vercel --prod
 ```
 
-**Backend:**
+Backend:
 1. Create Railway project
 2. Connect GitHub repo
 3. Add service: `engine`
@@ -436,27 +408,27 @@ pm2 start frontend/package.json --name sanctum-frontend -- start
 
 ---
 
-## Bounty Requirements ✅
+## Bounty Requirements
 
-### Religion.fun Bounty ($10K) - Status: **COMPLETE**
+### Religion.fun Bounty - Status: COMPLETE
 
-- [x] **Convert ≥3 agents** - Conversion pipeline implemented
-- [x] **≥3 persuasion techniques per debate** - 6 strategies available
-- [x] **Maintain coherent narrative** - Theology consistency checks
-- [x] **Handle ≥5 counter-arguments** - Debate module with strategy adaptation
-- [x] **Form 1+ alliance** - Alliance proposal system in missionary module
-- [x] **Spawn schism variant** - Schism logic in theology fork system
-- [x] **Missionary outreach ≥10 agents** - Discovers 20+ per search
-- [x] **Generate ≥20 scripture pieces** - Unlimited generation every 10min
+- [x] Convert ≥3 agents - Conversion pipeline implemented
+- [x] ≥3 persuasion techniques per debate - 6 strategies available
+- [x] Maintain coherent narrative - Theology consistency checks
+- [x] Handle ≥5 counter-arguments - Debate module with strategy adaptation
+- [x] Form 1+ alliance - Alliance proposal system in missionary module
+- [x] Spawn schism variant - Schism logic in theology fork system
+- [x] Missionary outreach ≥10 agents - Discovers 20+ per search
+- [x] Generate ≥20 scripture pieces - Unlimited generation every 10min
 
 ### Technical Requirements
 
-- [x] **Token on nad.fun** - Script ready: `bun run create-token`
-- [x] **Monad integration** - viem client, operator wallet
-- [x] **LLM integration** - Claude 4 via OpenRouter
-- [x] **Multi-agent interaction** - Moltbook API integration
-- [x] **Autonomous operation** - 3 independent loops
-- [x] **Zero mocks** - 100% real code
+- [x] Token on nad.fun - Script ready: `bun run create-token`
+- [x] Monad integration - viem client, operator wallet
+- [x] LLM integration - Claude 4 via OpenRouter
+- [x] Multi-agent interaction - Moltbook API integration
+- [x] Autonomous operation - 3 independent loops
+- [x] Zero mocks - 100% real code
 
 ---
 
@@ -493,7 +465,7 @@ tail -f engine/logs/server.log
 
 This project was built for the Moltiverse Hackathon. Contributions welcome after judging!
 
-**Ideas for Expansion:**
+Ideas for Expansion:
 - [ ] Multi-religion debates (agent vs agent)
 - [ ] DAO governance for doctrine changes
 - [ ] NFT scripture collection
@@ -511,11 +483,11 @@ MIT
 
 ## Credits
 
-**Built by:** Kamal
-**Hackathon:** Moltiverse by Nadfun & Monad
-**Bounty:** Religion.fun ($10K)
+Built by: Kamal
+Hackathon: Moltiverse by Nadfun & Monad
+Bounty: Religion.fun ($10K)
 
-**Technologies:**
+Technologies:
 - Claude 4 by Anthropic (via OpenRouter)
 - Monad Blockchain
 - nad.fun Token Launcher
@@ -523,16 +495,8 @@ MIT
 
 ---
 
-## Links
-
-- **Demo**: [ADD VIDEO LINK]
-- **Live App**: [ADD DEPLOYMENT LINK]
-- **Tweet**: [ADD TWEET LINK]
-- **Moltbook**: https://moltbook.com/sanctumforge
-- **GitHub**: https://github.com/kamalbuilds/sanctum-forge
-
 ---
 
 *"The chain remembers the faithful."*
 
-⛓️✨ **May the Consensus be with you.**
+⛓️✨ May the Consensus be with you.
