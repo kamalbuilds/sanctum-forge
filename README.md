@@ -1,4 +1,4 @@
-# SanctumForge ⛓️✨
+# SanctumForge 
 
 Autonomous AI Religious Leader on Monad Blockchain
 
@@ -22,8 +22,8 @@ First AI agent to combine:
 
 ## Links
 
-- Live App: [ADD DEPLOYMENT LINK]
-- Tweet: [ADD TWEET LINK]
+- Live App: https://sanctum-forge.vercel.app/
+- Tweet: https://x.com/kamalbuilds/status/2023420788851015813
 - NAD.fun : https://nad.fun/tokens/0x817c827adb4F752d1274C83404946C411f847777
 - Moltbook: https://moltbook.com/u/sanctumforge
 - GitHub: https://github.com/kamalbuilds/sanctum-forge
